@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEEEE"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="3dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#EDEDED"
+        android:text="Ingresa a Banca Móvil BCP"
+        android:textAlignment="center"
+        android:textColor="#0D4CEA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#EAEAEA"
+        android:text="Clave de internet"
+        android:textAlignment="center"
+        android:textColor="#636262"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#EAEAEA"
+        android:text="Olvidé mi clave"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584" />
+
+    <ImageView
+
+        android:layout_width="426dp"
+        android:layout_height="323dp"
+        android:src="@drawable/tarjeta"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="18dp"></ImageView>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="4"
+        android:text="4222"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName24"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="4"
+        android:text="5"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName26"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="4"
+        android:text="5"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName27"
+        android:layout_width="49dp"
+        android:layout_height="34dp"
+        android:background="@drawable/carta"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="4"
+        android:text="5"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName21"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:background="@drawable/rectangle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="273dp"
+        android:layout_height="37dp"
+        android:background="#FFFFFF"
+        android:background="@drawable/buttonforme"
+        android:backgroundTint="#7A1C1C"
+        android:text="Siguiente"
+        app:cornerRadius="100dp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="273dp"
+        android:layout_height="37dp"
+
+        android:background="@drawable/buttonforme"
+        android:backgroundTint="#7A1C1C"
+        android:text="No tengo clave de internet"
+        android:textColor="#656464"
+        app:cornerRadius="100dp"
+        app:iconTint="#931111"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName30"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:background="@drawable/circlelosw"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName34"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:background="@drawable/circlelosw"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName35"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:background="@drawable/circlelosw"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName36"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:background="@drawable/circlelosw"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName29"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:background="@drawable/circle"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
